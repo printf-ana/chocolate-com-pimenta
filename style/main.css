@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #FFE599;
+    font-family: 'Anton', sans-serif;
+} 
+
+nav li {
+    padding-left: 80px;
+    font-weight: 50;
+}
+
+.home {
+    background-image: url('../img/background2.gif');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.logo {
+    text-align: center;
+}
+
+#conheca {
+    background: linear-gradient(#8C6A65,#885939);
+    padding: 40px;
+}
+
+.img-conheca {
+    width: 90%;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.descricao {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #FCEA00;
+}
+
+.link:hover {
+    font-weight: bold;
+    color: black;
+}
+
+#produtos {
+    background: linear-gradient(#885939,#8C6A65);
+    padding: 40px;
+}
+
+.title {
+    color: #FFE599;
+    padding: 40px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.img-produto img {
+    padding: 20px;
+    width: 21rem;
+    transition: 1s all;
+}
+
+.img-produto img:hover {
+    width: 23rem;
+}
+
+.btn-produto {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button-card {
+    background-color: #FCEA00;
+    color: black;
+    border-color: black;
+}
+
+.button-card:hover {
+    background-color: #CA4B4B;
+    color: white;
+    border-color: white;
+}
+
+#contato {
+    background: linear-gradient(#8C6A65,#885939);
+    padding: 40px;
+}
+
+footer {
+    background-color: #FFE599;
+    text-align: center;
+}
+
+footer p a {
+     color:  #CA4B4B;
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color:  #CA4B4B;
+    font-weight: bold;
+}
