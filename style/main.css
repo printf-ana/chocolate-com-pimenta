@@ -95,6 +95,10 @@ nav li {
     padding: 40px;
 }
 
+.img-form {
+    width: 100%;
+}
+
 footer {
     background-color: #FFE599;
     text-align: center;
